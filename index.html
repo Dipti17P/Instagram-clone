@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <!-- title icon -->
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2023.ico">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/faviconx/1.0.1/faviconx-min.js" integrity="sha512-3kfyqP98yizPZDXvUcMJWLIVUWT7THRf7TC0Aw//CJiNlL0ZZR6KVU305WEWD4YD9yCc8cEDEzKW/PHuYeBvaw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body style="background-color: #000;">
+
+
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo.png" class="rounded d-block"></a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <div class="btn-group" role="group">
+                <button type="button" class="btn btn-outline-light d-flex dropdown-toggle me-md-2" data-bs-toggle="dropdown" aria-expanded="false">
+                  <div role="img" aria-hidden="true" class="default-ltr-cache-pnamzc e1vkmu653"><svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 16 16" width="16" height="16" data-icon="LanguagesSmall" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z" fill="currentColor"></path></svg></div>
+                  English
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+                </ul>
+              </div>
+              <button class="navbtn" type="Sign">Sign In</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+<!-- slider -->
+ <div id="carouselExampleIndicators" class="carousel slide">
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="slider1.jpg" class="d-block w-100 img" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slider2.jpg" class="d-block w-100 img" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slider3.jpg" class="d-block w-100 img" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+<div class="carousel-indicators indi">
+  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active slidebtn" aria-current="true" aria-label="Slide 1"></button>
+  <button type="button" class="slidebtn" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  <button type="button" class="slidebtn" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+</div>
+</div>
+
+
+<!-- form -->
+   <div class="card-body">
+    <p class="card-text default-ltr-cache-1arr3vy e1w590cc1 text">Ready to watch? Enter your email to create or restart your membership.</p>
+    <form class="row g-3 d-flex align-items-center justify-content-center w-100 w-lg-75">
+      <div class="form-floating col-auto">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+      </div>
+      <div class="col-auto">
+          <button type="submit" class="get-started-btn red-btn fw-bold">Get Started</button>
+      </div>
+  </form>
+</div>
+
+
+<!-- Trending now -->
+<div class="container mt-4">
+  <h2 class="mb-3" style="color: white; text-align: center;">Trending Now</h2>
+  <div id="trendingCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+          <!-- First slide (Movies 1 to 5) -->
+          <div class="carousel-item active">
+              <div class="movie-container">
+                  <div class="position-relative">
+                      <span class="ranking">1</span>
+                      <img src="m1.jpg" class="d-block" width="150" height="250">
+                  </div>
+                  <div class="position-relative">
+                      <span class="ranking">2</span>
+                      <img src="m2.png" class="d-block" width="150" height="250">
+                  </div>
+                  <div class="position-relative">
+                      <span class="ranking">3</span>
+                      <img src="m3.png" class="d-block" width="150" height="250">
+                  </div>
+                  <div class="position-relative">
+                      <span class="ranking">4</span>
+                      <img src="m4.png" class="d-block" width="150" height="250">
+                  </div>
+                  <div class="position-relative">
+                      <span class="ranking">5</span>
+                      <img src="m5.png" class="d-block" width="150" height="250">
+                  </div>
+              </div>
+          </div>
+
+          <!-- Second slide (Movies 6 to 10) -->
+          <div class="carousel-item">
+              <div class="movie-container">
+                  <div class="position-relative">
+                      <span class="ranking">6</span>
+                      <img src="m6.png" class="d-block" width="150" height="250">
+                  </div>
+                  <div class="position-relative">
+                      <span class="ranking">7</span>
+                      <img src="m7.png" class="d-block" width="150" height="250">
+                  </div>
+                  <div class="position-relative">
+                      <span class="ranking">8</span>
+                      <img src="m8.png" class="d-block" width="150" height="250">
+                  </div>
+                  <div class="position-relative">
+                      <span class="ranking">9</span>
+                      <img src="m9.png" class="d-block" width="150" height="250">
+                  </div>
+                  <div class="position-relative">
+                      <span class="ranking">10</span>
+                      <img src="m10.png" class="d-block" width="150" height="250">
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#trendingCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#trendingCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+  </div>
+</div>
+
+
+<div class="container text-center">
+  <h2 class="mt-4" style="color: white;">A plan to suit your needs</h2>
+
+  <!-- Pricing Plans -->
+  <div class="pricing-container">
+      <div class="pricing-card">
+          <h3>Mobile</h3>
+          <p>480p</p>
+          <ul>
+              <li>✔ Fair video quality</li>
+              <li>✔ For your phone or tablet</li>
+          </ul>
+          <p class="price">₹149 /mo</p>
+      </div>
+
+      <div class="pricing-card">
+          <span class="most-popular">Most Popular</span>
+          <h3>Basic</h3>
+          <p>720p</p>
+          <ul>
+              <li>✔ Good video quality</li>
+              <li>✔ For your phone, tablet, laptop and TV</li>
+          </ul>
+          <p class="price">₹199 /mo</p>
+      </div>
+
+      <div class="pricing-card">
+          <h3>Standard</h3>
+          <p>1080p</p>
+          <ul>
+              <li>✔ Great video quality</li>
+              <li>✔ For your phone, tablet, laptop and TV</li>
+          </ul>
+          <p class="price">₹499 /mo</p>
+      </div>
+
+      <div class="pricing-card">
+          <h3>Premium</h3>
+          <p>4K + HDR</p>
+          <ul>
+              <li>✔ Immersive sound (spatial audio)</li>
+              <li>✔ For your phone, tablet, laptop and TV</li>
+          </ul>
+          <p class="price">₹649 /mo</p>
+      </div>
+  </div>
+
+  <!-- More Reasons to Join -->
+  <h2 class="mt-5" style="color: white;">More reasons to join</h2>
+  <div class="features-container">
+      <div class="feature-card">
+          <h4>Enjoy on your TV</h4>
+          <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+          <i class="fas fa-tv feature-icon"></i>
+      </div>
+      <div class="feature-card">
+          <h4>Download your shows to watch offline</h4>
+          <p>Save your favourites easily and always have something to watch.</p>
+          <i class="fas fa-solid fa-circle-down feature-icon"></i>
+      </div>
+      <div class="feature-card">
+          <h4>Watch everywhere</h4>
+          <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+          <i class="fas fa-light fa-earth-asia feature-icon"></i>
+      </div>
+      <div class="feature-card">
+          <h4>Create profiles for kids</h4>
+          <p>Send kids on adventures with their favourite characters in a space made just for them.</p>
+          <i class="fas fa-solid fa-people-group feature-icon"></i>
+      </div>
+  </div>
+</div>
+
+<!-- FAQ -->
+<section class="faq-section bg-black text-light">
+  <div class="container">
+      <h2 class="mb-2">Frequently Asked Questions</h2>
+      <div class="accordion" id="accordionExample">
+          <div class="accordion-item mb-2">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      What is Netflix?
+                  </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.<br><br>You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item mb-2">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      How much does Netflix cost?
+                  </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      Watch Netflix on your smartphone, tablet, SmartTV, laptop, or streaming device, all for one fixed monthly fee. plans range from ₹149 to ₹649 a month. No extra costs, no contracts.
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item mb-2">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Where can I watch?
+                  </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      Watch anywhere, anytime. Sign in with your Netflix account to watch 
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item mb-2">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      How do I cancel?
+                  </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus vero voluptates quasi reprehenderit pariatur necessitatibus maiores cum voluptatem possimus! Quod fuga dignissimos quo debitis iure eius ratione neque unde libero deleniti doloribus facilis animi est sunt ut deserunt beatae, dicta illum aut non totam! Deleniti in rerum totam laboriosam autem accusamus nihil! Voluptas quibusdam voluptatum tempora ducimus libero, quae reiciendis.
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item mb-2">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      What can I watch on Netflix?
+                  </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum consequuntur corporis incidunt ullam ipsam suscipit nam eius velit deleniti unde voluptatem, iure sequi necessitatibus iusto.
+                  </div>
+              </div>
+          </div>
+          <div class="accordion-item mb-2">
+              <h2 class="accordion-header">
+                  <button class="accordion-button collapsed p-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                      Is Netflix good for kids?
+                  </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolores quod tempore nisi est sequi veniam vitae quia odio, harum consequatur at corporis totam vel, facere quidem et eos nihil iste fugit! Iusto iste, nihil vel eos ipsa culpa minus assumenda quaerat ut? Facilis quibusdam maxime asperiores voluptates maiores, alias adipisci odit placeat. Dolore temporibus labore praesentium commodi quam. Possimus praesentium omnis maiores dolorum non voluptatibus consequuntur autem, eveniet aut alias id impedit perspiciatis officia?
+                  </div>
+              </div>
+          </div>
+          <div class="card-body">
+            <form class="row g-3 d-flex align-items-center justify-content-center w-100 w-lg-75">
+              <div class="col-auto">
+                  <button type="submit" class="get-started-btn red-btn">Get Started</button>
+              </div>
+          </form>
+          <p class="card-text default-ltr-cache-1arr3vy e1w590cc1 text faqq">Create or restart your membership</p>
+        </div>
+      </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="py-5 bg-black text-light">
+  <div class="container"> 
+      <div>
+          <p>Questions? Call <a href="#">000-800-919-1743</a></p>
+      </div>
+      <div class="row">
+          <div class="col-12 col-sm-4">
+              <ul>
+                  <li class="mb-2">
+                      <a href="#">FAQ</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="#">Media Centre</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="#">Ways to Watch</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="#">Cookie Preferences</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="#">Speed Test</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-12 col-sm-4">
+              <ul>
+                  <li class="mb-2">
+                      <a href="#">Help Center</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="#">Investor Relations</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="#">Terms of Use</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="#">Corporate Information</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="#">Legal Notices</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-12 col-sm-4">
+              <ul>
+                  <li class="mb-2">
+                      <a href="#">Account</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="#">Jobs</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="#">Privacy</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="#">Contact us</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-outline-light d-flex dropdown-toggle me-md-2" data-bs-toggle="dropdown" aria-expanded="false">
+          <div role="img" aria-hidden="true" class="default-ltr-cache-pnamzc e1vkmu653"><svg xmlns="http://www.w3.org/2000/svg" fill="none" role="img" viewBox="0 0 16 16" width="16" height="16" data-icon="LanguagesSmall" aria-hidden="true"><path fill-rule="evenodd" clip-rule="evenodd" d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z" fill="currentColor"></path></svg></div>
+          English
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">English</a></li>
+          <li><a class="dropdown-item" href="#">हिन्दी</a></li>
+        </ul>
+      </div>
+      <p>Netflix India</p>
+  </div>
+</footer>
+
+</body> 
+</html>
